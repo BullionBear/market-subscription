@@ -1,5 +1,6 @@
 import aio_pika
 
+
 class PikaHandler:
     def __init__(self, uri, username, password, port=5672):
         self.uri = uri
